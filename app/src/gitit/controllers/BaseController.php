@@ -1,4 +1,7 @@
-<?php
+<?php namespace gitit\Controllers;
+
+use Controller;
+use View;
 
 class BaseController extends Controller {
 

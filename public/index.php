@@ -7,7 +7,7 @@
  */
 
 // Include our helper functions
-require_once __DIR__.'/../app/helpers/helpers.php';
+// require_once __DIR__.'/../app/helpers/helpers.php';
 
 /*
 |--------------------------------------------------------------------------

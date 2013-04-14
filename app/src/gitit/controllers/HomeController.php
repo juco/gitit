@@ -1,4 +1,4 @@
-<?php
+<?php namespace gitit\Controllers;
 
 // use gitit\Git\Command\Log;
 
@@ -17,8 +17,9 @@ class HomeController extends BaseController {
 	|
 	*/
 
-	public function index()
+	public function showIndex()
 	{
+		die('foo');
 		// $repository = Repository::find(1);
 		// $cmd = \App\Git\Command\Log::initForRepository($repository);
 		// $cmd->execute();

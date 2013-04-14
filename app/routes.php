@@ -11,6 +11,6 @@
 |
 */
 
-Route::resource('/', 'HomeController');
-Route::controller('repositories', 'RepositoriesController');
-Route::get('repository/{name}', 'RepositoryController@repository');
+Route::get('/', 'gitit\Controllers\HomeController@showIndex');
+Route::controller('repositories', 'gitit\Controllers\RepositoriesController');
+Route::get('repository/{name}', 'gitit\Controllers\RepositoryController@repository');
