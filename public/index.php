@@ -6,6 +6,9 @@
  * @author   Taylor Otwell <taylorotwell@gmail.com>
  */
 
+// Include our helper functions
+require_once __DIR__.'/../app/helpers/helpers.php';
+
 /*
 |--------------------------------------------------------------------------
 | Register The Auto Loader

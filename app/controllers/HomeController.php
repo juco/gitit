@@ -1,5 +1,7 @@
 <?php
 
+// use gitit\Git\Command\Log;
+
 class HomeController extends BaseController {
 
 	/*
@@ -15,9 +17,13 @@ class HomeController extends BaseController {
 	|
 	*/
 
-	public function showWelcome()
+	public function index()
 	{
-		return View::make('hello');
+		// $repository = Repository::find(1);
+		// $cmd = \App\Git\Command\Log::initForRepository($repository);
+		// $cmd->execute();
+		// my_print_r($cmd->getOutput());
+		// return View::make('hello');
 	}
 
 }

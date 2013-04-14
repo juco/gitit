@@ -3,9 +3,13 @@
 		"laravel/framework": "4.0.*"
 	},
 	"require-dev": {
-		"phpunit/phpunit": "3.7.19"
+		"phpunit/phpunit": "3.7.19",
+		"way/generators": "dev-master"
 	},
 	"autoload": {
+		"psr-0": {
+			"gitit": "app/gitit/"
+		},
 		"classmap": [
 			"app/commands",
 			"app/controllers",

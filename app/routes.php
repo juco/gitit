@@ -11,7 +11,6 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
-});
+Route::resource('/', 'HomeController');
+Route::controller('repositories', 'RepositoriesController');
+Route::get('repository/{name}', 'RepositoryController@repository');
